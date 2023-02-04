@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #313131;
+}
+
+.voce{
+  float: left;
+  margin-left: 166px;
+  font-size: 26px;
+  color: #fff;
+}
+
+.versus{
+  float: left;
+  margin-left: 164px;
+  font-size: 26px;
+  color: #ffe600;
+}
+
+.comput{
+  margin-left: 528px;
+  font-size: 26px;
+  color: #fff;
+}
+
+.styleLado{
+  background: linear-gradient(
+  to right,
+  #8400ff 0%,
+  #8400ff 46%,
+  #6b009d 46%,
+  #6b009d 54%,
+  #8400ff 54%,
+  #8400ff 100%
+ );
+}
+
+h2 {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.jokenpo {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.titleContent{
+  margin-top: 210px;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rowPlayer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rowOptions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: none;
+  text-align: center;
+}
+
+.button1 {
+  background: purple;
+  border: 0;
+  padding: .5rem 1.5rem;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.boxPedra1 {
+  width: 180px;
+  height: 180px;
+  margin-top: 20px;
+  margin-right: -70px;
+  margin-left: -84px;
+}
+
+.boxTesoura1 {
+  width: 230px;
+  height: 230px;
+  margin-left: -80px;
+  margin-right: -80px;
+  margin-top: 20px;
+}
+
+.boxPapel1 {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: -84px;
+  margin-right: -84px;
+}
+.boxPedra {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin-top: 140px;
+}
+
+.boxTesoura {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  margin-top: 140px;
+}
+
+h4{
+color: #0800ff;
+}
+
+.boxPapel {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin-top: 140px;
+}
+
+.iconComputer{
+  margin-left: 10px;
+  margin-bottom: -40px;
+}
+
+.iconMouse{
+  margin-bottom: -40px;
+}
+
+.ladoUsuario{
+ height: 100vh;
+ background: linear-gradient(
+  to right,
+  #e69aea 0%,
+  #e69aea 50%,
+  paleturquoise 50%,
+  paleturquoise 100%
+ );
+  
+}
+
+.body2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: paleturquoise;
+}
+
+button:focus,
+button:hover{
+  background-color: #0800ff;
+  color: #fff;
+}
